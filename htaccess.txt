@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^ctracker/ctracker\.gif$ ctracker/ctracker.php [QSA,L]
+# QSA = query string append

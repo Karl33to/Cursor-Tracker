@@ -1,1 +1,92 @@
-Hello World!
+  _______
+ | TITLE |____________________________________________________________________
+ |   ____  __ _________  _________________                                    |
+ | _/ ___\|  |  \_  __ \/  ___/  _ \_  __ \                                   |
+ | \  \___|  |  /|  | \/\___ (  <_> )  | \/                                   |
+ |  \___  >____/ |__|  /____  >____/|__|                                      |
+ |      \/                  \/                                                |
+ |    __                        __                                            |
+ |  _/  |_____________    ____ |  | __ ___________                            |
+ |  \   __\_  __ \__  \ _/ ___\|  |/ // __ \_  __ \                           |
+ |   |  |  |  | \// __ \\  \___|    <\  ___/|  | \/                           |
+ |   |__|  |__|  (____  /\___  >__|_ \\___  >__|                              |
+ |                    \/     \/     \/    \/                                  |
+ |                                                                            |
+ | cursor tracker                                                             |
+ | Version 1.5.1 - 01/02/2008                                                 |
+ | Copyright (C) 2007 Karl Payne                                              |
+ | karl@cherrystudios.co.uk                                                   |
+ |____________________________________________________________________________|
+  _________
+ | LICENSE |__________________________________________________________________
+ |                                                                            |
+ | Cursor Tracker is free software; you can redistribute it and/or modify     |
+ | it under the terms of the GNU General Public License as published by       |
+ | the Free Software Foundation; either version 3 of the License, or          |
+ | (at your option) any later version.                                        |
+ |                                                                            |
+ | Cursor Tracker is distributed in the hope that it will be useful,          |
+ | but WITHOUT ANY WARRANTY; without even the implied warranty of             |
+ | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the              |
+ | GNU General Public License for more details.                               |
+ |                                                                            |
+ | You should have received a copy of the GNU General Public License          |
+ | along with Cursor Tracker.  If not, see <http://www.gnu.org/licenses/>     |
+ |____________________________________________________________________________|
+  __________
+ | FEATURES |_________________________________________________________________
+ |                                                                            |
+ | * Stores visitors screen resolutions                                       |
+ | * Logs filename & path                                                     |
+ | * One server can analyse data for several sites                            |
+ | * Displays results as a heatmap                                            |
+ |____________________________________________________________________________|
+  ______________
+ | INSTALLATION |_____________________________________________________________
+ |                                                                            |
+ | * Extract all the files to a local directory                               |
+ | * Open config.php                                                          |
+ | * Use the sql statement to create the database table                       |
+ | * Change the database connection parameters to your own                    |
+ | * Change the ouput directory and domain variables                          |
+ | * Open example.html                                                        |
+ | * If your webserver will be collecting data from multiple sites change     |
+ |   the iIdentifyer variable to be unique to each site                       |
+ | * Change the URL to the javascript include ctracker.js to point to the     |
+ |   URL you will upload it to                                                |
+ | * Copy the Javascript code into the footer of all the pages you wish       |
+ |   to track                                                                 |
+ | * If you do not upload your files to the root/ctracker directory you       |
+ |   will also need to change the rewrite rul in htaccess.txt                 |
+ | * Upload all files except readme.txt and example.html                      |
+ | * Rename htaccess.txt to .htaccess                                         |
+ |____________________________________________________________________________|
+  _____________________
+ | KNOWN BUGS & ISSUES |______________________________________________________
+ |                                                                            |
+ | OPEN                                                                       |
+ | * none                                                                     |
+ |                                                                            |
+ | CLOSED                                                                     |
+ | * 03/12/07                                                                 |
+ |   alpha transpareny of the png was not being preserved after drawing       |
+ |____________________________________________________________________________|
+  _______
+ | TO-DO |____________________________________________________________________
+ |                                                                            |
+ | * None                                                                     |
+ |____________________________________________________________________________|
+  _____
+ | FAQ |______________________________________________________________________
+ |                                                                            |
+ | * None                                                                     |
+ |____________________________________________________________________________|
+  _________________
+ | RELEASE HISTORY |__________________________________________________________
+ |                                                                            |
+ | * v1.5.1 03/12/07 Added option to analyse data for all pages               |
+ | * v1.5.0 03/12/07 Minor changes to the analysis and viewing of the data    |
+ | * v1.0.1 20/09/07 Initial public development release                       |
+ |____________________________________________________________________________|
+
+EOF
